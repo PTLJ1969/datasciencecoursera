@@ -30,7 +30,7 @@ Assumptions:
 	measurements such as 'angle(Z,gravityMean)' are also excluded.  
 
 Script Details:  
------------- 
+---------------
 1: The run_analysis.R script merges the training and the test sets to create one data set:  
  * It reads the train and test data files into corresponding dataframes using read.table()  
  * It performs the above illustrated rbind & cbind operations:  
@@ -65,7 +65,9 @@ Thus the resulting Data Frame has column headers as follows:
  * It Casts the melted data in wide form, calculating average (mean) of each variable for each activity and each subject  
  * It writes the tidied data out to file  
 
-The tidy data set consists of 180 rows (30 Subjects x 6 Activities) and 68 Columns ('Subject','Activity' + 66 Feature Columns)  
+Script Output:  
+---------------
+The tidy data set output consists of 180 rows (30 Subjects x 6 Activities) and 68 Columns ('Subject','Activity' + 66 Feature Columns)  
 Thus each row in the table contains:  
  * A Subject  
  * An Activity carried out by that subject  
