@@ -3,7 +3,7 @@
 Coursera Data Science Specialisation  
 Getting & Cleaning Data : Course Project  
 
-This file describes the run_analysis.R and how the script works  
+This file describes the run_analysis.R script and how it works  
 
 Purpose of script:  
 ------------------  
